@@ -1,0 +1,22 @@
+[
+  {
+    "id": "main_in",
+    "type": "source",
+    "definition": "basic_square_wave",
+    "outputs": [
+      "bias"
+    ]
+  },
+  {
+    "id": "bias",
+    "type": "node",
+    "definition": "bias",
+    "outputs": [
+      "main_out"
+    ]
+  },
+  {
+    "id": "main_out",
+    "type": "sink"
+  }
+]
